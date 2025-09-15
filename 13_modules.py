@@ -5,7 +5,7 @@ print(result)
 
 calcy.eve_or_odd(99)
 '''
-
+'''
 def add(x, y):
     return x + y
 
@@ -50,3 +50,13 @@ def calculator():
 
 # Run the calculator
 calculator()
+'''
+import employees
+#object creation
+emp1 = employees.Employess('Samir', 'samir@gmail.com', 'Sales', 50000)
+emp2 = employees. Employess("Faran", "faran@gmail.com", "DevOps", 10000)
+
+emp1.emp_info()
+emp2.emp_info()
+emp1.change_dept('Marketing')
+emp1.emp_info()
